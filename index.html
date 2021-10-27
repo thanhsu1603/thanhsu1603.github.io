@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://127.0.0.1:5500/New%20folder/infor.html? -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./index_files/infor.css">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="web">
+        <h1 style="color: red;text-align: center;">Information personal page</h1>
+        <h1 style="text-align: center;color: red;">♥</h1>
+        <div>
+            <img class="center" id="avt" style="height: 250px; width: 250px;" src="./index_files/avt.jpg" width="20%" height="20%" alt="">
+        </div>
+        <div>
+            <table class="inf">
+                <tbody><tr>
+                    <th>
+                        <a href="https://www.facebook.com/thhsu.2001/">
+                            <img class="logo" id="logofb" style="height: 100px; width: 100px;" src="./index_files/1200px-Facebook_Logo_(2019).png" alt=""></a>
+                    </th>
+                    <th style="width: 100px;"></th>
+                    <th>
+                        <form id="infor" style="text-align: center;">
+                            <br> Name: <b>Võ Thành Sự</b> <br><br>
+                            Date of Birth: <b>16/03/2001</b> <br><br>
+                            Country: <b>Đồng Tháp</b> <br><br>
+                            <b>Student of Nam Cần Thơ University</b><br> <br>
+                            Class: <b>DH19TIN03</b>
+                    </form></th>
+                    <th style="width: 100px;"></th>
+                    <th>
+                        <a href="https://www.instagram.com/thsu.2001/">
+                            <img class="logo" id="logoins" style="height: 100px; width: 100px;" src="./index_files/brasol.vn-logo-instargram-logo-instagram-vector.png" alt=""></a>
+                    </th>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

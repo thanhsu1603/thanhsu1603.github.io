@@ -1,0 +1,39 @@
+
+.web{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.inf{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    box-shadow: 0px 5px 5px 2px black;
+}
+.logo:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
+#avt{
+    border-radius: 50px;
+    animation: spin 4s linear infinite;
+}
+#avt:hover{
+    transform: scale(2);
+    transition: 4s;
+}
+#logoins{
+    border-radius: 30px;
+}
+#logofb{
+    border-radius: 90px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
